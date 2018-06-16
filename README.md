@@ -14,14 +14,16 @@ Summary: Code, prompt and output hiding for Jupyter/IPython notebooks.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hide_code-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hide_code-feedstock)
-OSX: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/hide_code-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/hide_code-feedstock)
+![OSX disabled](https://img.shields.io/badge/OSX-disabled-lightgrey.svg)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hide_code/badges/version.svg)](https://anaconda.org/conda-forge/hide_code)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hide_code/badges/downloads.svg)](https://anaconda.org/conda-forge/hide_code)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-hide_code-green.svg)](https://anaconda.org/conda-forge/hide_code) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hide_code.svg)](https://anaconda.org/conda-forge/hide_code) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hide_code.svg)](https://anaconda.org/conda-forge/hide_code) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hide_code.svg)](https://anaconda.org/conda-forge/hide_code) |
 
 Installing hide_code
 ====================
