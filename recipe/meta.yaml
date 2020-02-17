@@ -13,7 +13,7 @@ source:
 
 build:
     number: 0
-    skip: True  # [win or osx]
+    skip: True  # [win or osx or py < 30]
     script: |
         set -ex
         python setup.py install --single-version-externally-managed --record record.txt
@@ -21,12 +21,12 @@ build:
 
 requirements:
     build:
-        - python >=3
+        - python
         - setuptools
         - notebook >=4.4.1
         - python-pdfkit
     run:
-        - python >=3
+        - python
         - notebook >=4.4.1
         - python-pdfkit
 
