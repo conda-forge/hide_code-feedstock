@@ -21,12 +21,12 @@ build:
 
 requirements:
     build:
-        - python
+        - python >=3
         - setuptools
         - notebook >=4.4.1
         - python-pdfkit
     run:
-        - python
+        - python >=3
         - notebook >=4.4.1
         - python-pdfkit
 
