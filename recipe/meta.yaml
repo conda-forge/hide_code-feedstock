@@ -37,7 +37,7 @@ test:
 about:
     home: https://github.com/kirbs-/hide_code
     license: MIT
-    license_file: hide_code/LICENSE.txt
+    license_file: hide_code/LICENSE
     summary: 'Code, prompt and output hiding for Jupyter/IPython notebooks.'
 
 extra:
