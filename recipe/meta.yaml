@@ -1,6 +1,6 @@
 {% set name = "hide_code" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "73d7ff058cf5637b47af9504cbbd8bdb9e6e256668ccceeb425865fd50616335" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "a2a2598dadd7b37b7bfe1b094db3168acdf7c28c371eeca26cbad3e6579d4771" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win or osx or py < 30]
   script: |
     set -ex
