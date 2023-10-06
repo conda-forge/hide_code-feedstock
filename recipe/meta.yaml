@@ -23,11 +23,11 @@ requirements:
   host:
     - python
     - setuptools
-    - notebook >=4.4.1
+    - notebook >=4.4.1,<7
     - python-pdfkit
   run:
     - python
-    - notebook >=4.4.1
+    - notebook >=4.4.1,<7
     - python-pdfkit
 
 test:
